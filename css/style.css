@@ -6,27 +6,27 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: url(https://www.brunswickgroup.com/media/10470/riyadh_banner_image.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 100%;
 }
 
 .wrapper {
   margin: 0 auto;
-  width: 60%;
+  width: 75%;
   padding-bottom: 40px;
 }
 
 #content {
-  padding: 20px;
-  background: rgba(255,255,255,.85);
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.918);
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #3c10b6;
 }
 
 h1 {
@@ -40,19 +40,21 @@ h2 {
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.5em;
   margin-top: .5em;
+  color: #cc7025;
 }
 
 img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  position: center;
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 a {
@@ -61,7 +63,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: hotpink;
 }
 
 @media only screen and (max-width: 1042px) {
